@@ -1,0 +1,33 @@
+{
+  "name": "passport-bodymedia",
+  "version": "0.0.1",
+  "description": "BodyMedia authentication strategy for Passport.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cquartier/passport-bodymedia.git"
+  },
+  "keywords": [
+    "passport",
+    "bodymedia",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Christopher Quartier",
+    "email": "cquartier@gmail.com"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  } ],
+  "bugs": {
+    "url": "https://github.com/cquartier/passport-bodymedia/issues"
+  },
+  "homepage": "https://github.com/cquartier/passport-bodymedia",
+  "dependencies": {
+    "passport-oauth": "1.0.x",
+    "pkginfo": "0.3.x"
+  }
+}
