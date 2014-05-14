@@ -22,7 +22,7 @@ and OAuth tokens.  The strategy requires a `verify` callback, which accepts
 these credentials and calls `done` providing a user, as well as `options`
 specifying a consumer key, consumer secret, and callback URL.
 
-    passport.use(new FitbitStrategy({
+    passport.use(new BodyMediaStrategy({
         consumerKey: BODYMEDIA_CONSUMER_KEY,
         consumerSecret: BODYMEDIA_CONSUMER_SECRET,
         callbackURL: "http://localhost:3000/auth/bodymedia/callback"
